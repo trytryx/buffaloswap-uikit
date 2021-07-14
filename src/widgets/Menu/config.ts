@@ -145,7 +145,7 @@ export const socials = [
     items: [
       {
         label: "Community",
-        href: "https://t.me/cherokeefinance",
+        href: "https://t.me/buffaloswap",
       },
       {
         label: "Announcements",
