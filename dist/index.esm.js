@@ -2280,12 +2280,12 @@ var socials = [
     {
         label: "Github",
         icon: "GithubIcon",
-        href: "https://github.com/cherokeefinance",
+        href: "https://github.com/buffaloswap",
     },
     {
         label: "Docs",
         icon: "GitbookIcon",
-        href: "https://cherokee.gitbook.io/cherokeefinance/",
+        href: "https://buffaloswap.gitbook.io/buffaloswap/",
     },
     // {
     //  label: "Medium",
@@ -2295,7 +2295,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/CherokeeFinance",
+        href: "https://twitter.com/BuffaloswapDex",
     },
     {
         label: "Telegram",
@@ -2307,7 +2307,7 @@ var socials = [
             },
             {
                 label: "Announcements",
-                href: "https://t.me/cherokeefinanceAnn",
+                href: "https://t.me/buffaloswapnews",
             },
         ],
     },
@@ -2443,10 +2443,10 @@ var openInMetamask = function (callback) {
         params: {
             "type": "ERC20",
             "options": {
-                "address": "0xed78e2c34b18B07F3Cfa74506EB7AE4f09FAD47a",
-                "symbol": "CHEROKEE",
+                "address": "0x10a49f1fC8C604eA7f1c49bcc6ab2A8E58e77EA5",
+                "symbol": "BUFF",
                 "decimals": 18,
-                "image": "https://www.cherokee.finance/img/logo.png",
+                "image": "https://www.buffaloswap.org/images/logo_600.png",
             },
         },
         id: Math.round(Math.random() * 100000),

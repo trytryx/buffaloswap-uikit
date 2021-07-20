@@ -66,10 +66,10 @@ const openInMetamask = (callback:any) => {
                 params: {
                   "type":"ERC20",
                   "options":{
-                    "address": "0xed78e2c34b18B07F3Cfa74506EB7AE4f09FAD47a",
-                    "symbol": "CHEROKEE",
+                    "address": "0x10a49f1fC8C604eA7f1c49bcc6ab2A8E58e77EA5",
+                    "symbol": "BUFF",
                     "decimals": 18,
-                    "image": "https://www.cherokee.finance/img/logo.png",
+                    "image": "https://www.buffaloswap.org/images/logo_600.png",
                   },
                 },
                 id: Math.round(Math.random() * 100000),
