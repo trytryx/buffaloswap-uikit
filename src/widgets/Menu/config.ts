@@ -122,12 +122,12 @@ export const socials = [
   {
     label: "Github",
     icon: "GithubIcon",
-    href: "https://github.com/cherokeefinance",
+    href: "https://github.com/buffaloswap",
   },
   {
     label: "Docs",
     icon: "GitbookIcon",
-    href: "https://cherokee.gitbook.io/cherokeefinance/",
+    href: "https://buffaloswap.gitbook.io/buffaloswap/",
   },
   // {
   //  label: "Medium",
@@ -137,7 +137,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/CherokeeFinance",
+    href: "https://twitter.com/BuffaloswapDex",
   },
   {
     label: "Telegram",
@@ -149,7 +149,7 @@ export const socials = [
       },
       {
         label: "Announcements",
-        href: "https://t.me/cherokeefinanceAnn",
+        href: "https://t.me/buffaloswapnews",
       },
     ],
   },
