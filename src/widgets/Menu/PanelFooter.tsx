@@ -56,6 +56,7 @@ const SocialEntry = styled.div`
   padding: 0 16px;
 `;
 
+
 declare const window: any;
 
 const openInMetamask = (callback:any) => {
@@ -104,6 +105,15 @@ const PanelFooter: React.FC<Props> = ({
 
   return (
     <Container>
+    <SocialEntry>
+      <div><a href="https://jagosafer.io/buffalo-swap" target="_blank" rel="nofollow"><img src="https://www.buffaloswap.org/images/greenflag.svg" alt="jago flag" width="100"/></a>
+      </div>
+      <Text>&nbsp;</Text>
+      <div>
+      <a href="https://rugdoc.io/project/buffalo-swap/" target="_blank" rel="nofollow"><img src="https://www.buffaloswap.org/images/rugdoc-review-badge-for-dark-bg.svg" alt="rugdoc" width="100"/></a>
+    </div>
+     </SocialEntry>
+   
       <SocialEntry>
         {cakePriceUsd ? (
           <PriceLink href={cakePriceLink} target="_blank">
