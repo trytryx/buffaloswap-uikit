@@ -2125,7 +2125,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     AirdropIcon: Icon$9,
     ChartIcon: Icon$8,
     FeatureIcon: Icon$7,
-    Chaincon: Icon$6
+    ChainIcon: Icon$6
 });
 
 var MenuButton = styled(Button)(templateObject_1$d || (templateObject_1$d = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"])), function (_a) {
