@@ -29,3 +29,5 @@ export { default as ChartIcon } from "./Chart";
 export { default as FeatureIcon } from "./Feature"; 
 export { default as ExchangeIcon } from "./Exchange"; 
 export { default as ChainIcon } from "./Chain"; 
+export { default as GamesIcon } from "./Games"; 
+
