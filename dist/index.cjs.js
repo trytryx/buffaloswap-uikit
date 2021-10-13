@@ -2532,7 +2532,7 @@ var PanelFooter = function (_a) {
             React__default['default'].createElement(Button, { size: "sm", variant: "text", onClick: openInMetamask },
                 React__default['default'].createElement(Icon$Z, null),
                 React__default['default'].createElement(Icon$Q, null))),
-        React__default['default'].createElement(SocialEntry, null,
+        React__default['default'].createElement(SocialEntry, { style: { top: '-16px', position: 'relative' } },
             cakePriceUsdB ? (React__default['default'].createElement(PriceLink, { href: cakePriceLinkB, target: "_blank" },
                 React__default['default'].createElement(Icon$N, { width: "24px", mr: "8px" }),
                 React__default['default'].createElement(Text, { color: "text", fontSize: "15px", bold: true }, "$" + cakePriceUsdB.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 })),
@@ -2834,7 +2834,7 @@ var MobileOnlyOverlay = styled__default['default'](Overlay)(templateObject_5 || 
 });
 var Menu = function (_a) {
     var _b;
-    var account = _a.account, login = _a.login, logout = _a.logout, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, cakePriceUsd = _a.cakePriceUsd, cakePriceLink = _a.cakePriceLink, links = _a.links, profile = _a.profile, children = _a.children;
+    var account = _a.account, login = _a.login, logout = _a.logout, isDark = _a.isDark, toggleTheme = _a.toggleTheme, langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, cakePriceUsd = _a.cakePriceUsd, cakePriceLink = _a.cakePriceLink, cakePriceUsdB = _a.cakePriceUsdB, cakePriceLinkB = _a.cakePriceLinkB, links = _a.links, profile = _a.profile, children = _a.children;
     var isXl = useMatchBreakpoints().isXl;
     var isMobile = isXl === false;
     var _c = React.useState(!isMobile), isPushed = _c[0], setIsPushed = _c[1];
@@ -2877,7 +2877,7 @@ var Menu = function (_a) {
                 React__default['default'].createElement(UserBlock, { account: account, login: login, logout: logout }),
                 profile && React__default['default'].createElement(Avatar, { profile: profile }))),
         React__default['default'].createElement(BodyWrapper, null,
-            React__default['default'].createElement(Panel, { isPushed: isPushed, isMobile: isMobile, showMenu: showMenu, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, cakePriceLink: cakePriceLink, pushNav: setIsPushed, links: links }),
+            React__default['default'].createElement(Panel, { isPushed: isPushed, isMobile: isMobile, showMenu: showMenu, isDark: isDark, toggleTheme: toggleTheme, langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, cakePriceLink: cakePriceLink, cakePriceUsdB: cakePriceUsdB, cakePriceLinkB: cakePriceLinkB, pushNav: setIsPushed, links: links }),
             React__default['default'].createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
             React__default['default'].createElement(MobileOnlyOverlay, { show: isPushed, onClick: function () { return setIsPushed(false); }, role: "presentation" }))));
 };
