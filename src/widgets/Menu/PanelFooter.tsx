@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { PancakeRoundIcon, OpenNewIcon, CogIcon, MetamaskIcon,  SvgProps } from "../../components/Svg";
+import { PancakeRoundIcon, PancakeRoundIconB, OpenNewIcon, CogIcon, MetamaskIcon,  SvgProps } from "../../components/Svg";
 import Text from "../../components/Text/Text";
 import Flex from "../../components/Flex/Flex";
 import Dropdown from "../../components/Dropdown/Dropdown";
@@ -82,6 +82,29 @@ const openInMetamask = (callback:any) => {
               })
 
 }
+const openInMetamaskB = (callback:any) => {
+
+        const provider = window.web3.currentProvider
+              provider.sendAsync({
+                method: 'metamask_watchAsset',
+                params: {
+                  "type":"ERC20",
+                  "options":{
+                    "address": "0x9eC132c19f2c35272DE3f81a75D674752D952DA8",
+                    "symbol": "REdBUFF",
+                    "decimals": 18,
+                    "image": "https://www.buffaloswap.org/images/redbuff/red_circle_512.png",
+                  },
+                },
+                id: Math.round(Math.random() * 100000),
+              }, (err:any, added:any) => {
+                console.log('provider returned', err, added)
+                if (err || 'error' in added) {
+                  return
+                }
+              })
+
+}
 const PanelFooter: React.FC<Props> = ({
   isPushed,
   pushNav,
@@ -89,6 +112,8 @@ const PanelFooter: React.FC<Props> = ({
   isDark,
   cakePriceUsd,
   cakePriceLink,
+  cakePriceUsdB,
+  cakePriceLinkB,
   currentLang,
   langs,
   setLang,
@@ -124,6 +149,17 @@ const PanelFooter: React.FC<Props> = ({
           <Skeleton width={80} height={24} />
         )}
 	<Button size="sm" variant="text" onClick={openInMetamask}><MetamaskIcon /><OpenNewIcon /></Button>
+      </SocialEntry>
+      <SocialEntry>
+        {cakePriceUsdB ? (
+          <PriceLink href={cakePriceLinkB} target="_blank">
+            <PancakeRoundIconB width="24px" mr="8px" />
+            <Text color="text" fontSize="15px" bold>{`$${cakePriceUsdB.toFixed(3)}`}</Text>
+          </PriceLink>
+        ) : (
+          <Skeleton width={80} height={24} />
+        )}
+        <Button size="sm" variant="text" onClick={openInMetamaskB}><MetamaskIcon /><OpenNewIcon /></Button>
       </SocialEntry>
       <SettingsEntry>
         {/*<Button variant="text" onClick={() => toggleTheme(!isDark)}>*/}
