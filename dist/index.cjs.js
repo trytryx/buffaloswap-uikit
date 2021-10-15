@@ -2496,7 +2496,7 @@ var openInMetamaskB = function (callback) {
             "type": "ERC20",
             "options": {
                 "address": "0x9eC132c19f2c35272DE3f81a75D674752D952DA8",
-                "symbol": "REdBUFF",
+                "symbol": "REDBUFF",
                 "decimals": 18,
                 "image": "https://www.buffaloswap.org/images/redbuff/red_circle_512.png",
             },

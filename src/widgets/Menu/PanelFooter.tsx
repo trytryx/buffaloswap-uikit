@@ -91,7 +91,7 @@ const openInMetamaskB = (callback:any) => {
                   "type":"ERC20",
                   "options":{
                     "address": "0x9eC132c19f2c35272DE3f81a75D674752D952DA8",
-                    "symbol": "REdBUFF",
+                    "symbol": "REDBUFF",
                     "decimals": 18,
                     "image": "https://www.buffaloswap.org/images/redbuff/red_circle_512.png",
                   },
@@ -138,7 +138,6 @@ const PanelFooter: React.FC<Props> = ({
       <a href="https://rugdoc.io/project/buffalo-swap/" target="_blank" rel="nofollow"><img src="https://www.buffaloswap.org/images/rugdoc-review-badge-for-dark-bg.svg" alt="rugdoc" width="100"/></a>
     </div>
      </SocialEntry>
-   
       <SocialEntry>
         {cakePriceUsd ? (
           <PriceLink href={cakePriceLink} target="_blank">
@@ -148,7 +147,7 @@ const PanelFooter: React.FC<Props> = ({
         ) : (
           <Skeleton width={80} height={24} />
         )}
-	<Button size="sm" variant="text" onClick={openInMetamask}><MetamaskIcon /><OpenNewIcon /></Button>
+	        <Button size="sm" variant="text" onClick={openInMetamask}><MetamaskIcon /><OpenNewIcon /></Button>
       </SocialEntry>
       <SocialEntry style={{top: '-16px', position: 'relative'}}>
         {cakePriceUsdB ? (
