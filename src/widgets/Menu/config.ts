@@ -122,12 +122,12 @@ export const socials = [
   {
     label: "Github",
     icon: "GithubIcon",
-    href: "https://github.com/buffaloswap",
+    href: "/#",
   },
   {
     label: "Docs",
     icon: "GitbookIcon",
-    href: "https://buffaloswap.gitbook.io/buffaloswap/",
+    href: "/#",
   },
   // {
   //  label: "Medium",
@@ -137,7 +137,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/BuffaloswapDex",
+    href: "https://twitter.com/BuffNetworkApp",
   },
   {
     label: "Telegram",
@@ -145,11 +145,11 @@ export const socials = [
     items: [
       {
         label: "Community",
-        href: "https://t.me/buffaloswap",
+        href: "https://t.me/buffalonetwork",
       },
       {
         label: "Announcements",
-        href: "https://t.me/buffaloswapnews",
+        href: "https://t.me/buffalonetwork",
       },
     ],
   },
