@@ -67,10 +67,10 @@ const openInMetamask = (callback:any) => {
                 params: {
                   "type":"ERC20",
                   "options":{
-                    "address": "0x10a49f1fC8C604eA7f1c49bcc6ab2A8E58e77EA5",
+                    "address": "0x48bf0Dde64cE7AF1E9031cC68D078CDfD960928C",
                     "symbol": "BUFF",
-                    "decimals": 18,
-                    "image": "https://www.buffaloswap.org/images/logo_600.png",
+                    "decimals": 9,
+                    "image": "https://www.buffaloswap.network/images/logo_600.png",
                   },
                 },
                 id: Math.round(Math.random() * 100000),
@@ -90,10 +90,10 @@ const openInMetamaskB = (callback:any) => {
                 params: {
                   "type":"ERC20",
                   "options":{
-                    "address": "0x9eC132c19f2c35272DE3f81a75D674752D952DA8",
-                    "symbol": "REDBUFF",
+                    "address": "0x000000000000000000000000000000000000dead",
+                    "symbol": "BUFFS",
                     "decimals": 18,
-                    "image": "https://www.buffaloswap.org/images/redbuff/red_circle_512.png",
+                    "image": "https://www.buffaloswap.network/images/redbuff/red_circle_512.png",
                   },
                 },
                 id: Math.round(Math.random() * 100000),
@@ -131,11 +131,11 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
     <SocialEntry>
-      <div><a href="https://jagosafer.io/buffalo-swap" target="_blank" rel="nofollow"><img src="https://www.buffaloswap.org/images/greenflag.svg" alt="jago flag" width="100"/></a>
+      <div><a href="/#" target="_blank" rel="nofollow"><img src="https://www.buffaloswap.network/images/greenflag.svg" alt="jago flag" width="100"/></a>
       </div>
       <Text>&nbsp;</Text>
       <div>
-      <a href="https://rugdoc.io/project/buffalo-swap/" target="_blank" rel="nofollow"><img src="https://www.buffaloswap.org/images/rugdoc-review-badge-for-dark-bg.svg" alt="rugdoc" width="100"/></a>
+      <a href="/#" target="_blank" rel="nofollow"><img src="https://www.buffaloswap.network/images/rugdoc-review-badge-for-dark-bg.svg" alt="rugdoc" width="100"/></a>
     </div>
      </SocialEntry>
       <SocialEntry>
