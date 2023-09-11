@@ -2313,7 +2313,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/BuffaloswapDex",
+        href: "https://twitter.com/BuffNetworkApp",
     },
     {
         label: "Telegram",
@@ -2321,11 +2321,11 @@ var socials = [
         items: [
             {
                 label: "Community",
-                href: "https://t.me/buffaloswap",
+                href: "https://t.me/buffalonetwork",
             },
             {
                 label: "Announcements",
-                href: "https://t.me/buffaloswapnews",
+                href: "https://t.me/buffalonetwork",
             },
         ],
     },
