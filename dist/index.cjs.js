@@ -2311,12 +2311,12 @@ var socials = [
     {
         label: "Github",
         icon: "GithubIcon",
-        href: "https://github.com/buffaloswap",
+        href: "/#",
     },
     {
         label: "Docs",
         icon: "GitbookIcon",
-        href: "https://buffaloswap.gitbook.io/buffaloswap/",
+        href: "/#",
     },
     // {
     //  label: "Medium",
